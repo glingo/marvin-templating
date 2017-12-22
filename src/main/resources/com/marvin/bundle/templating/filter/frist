@@ -1,0 +1,3 @@
+{{ "Martin" | first }}
+{{ app.env | first }}
+{{ [1, 2, 3] | first }}

@@ -1,0 +1,2 @@
+{{ "Say it In Lower Case" | lower }}
+{{ "LowEr" | lower }}

@@ -1,0 +1,4 @@
+{{ a | default(default="This is a default value") }}
+{{ a | default("This is a default value") }}
+{{ null | default("This is a default value") }}
+{{ "The default value will not appear" | default("This should not have been shown") }}

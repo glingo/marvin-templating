@@ -1,0 +1,2 @@
+{{ "Juin 24, 2001" | date("yyyy-MM-dd", existingFormat="MMMM dd, yyyy") }}
+{{ date | date("yyyy-MM-dd") }}

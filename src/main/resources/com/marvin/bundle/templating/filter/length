@@ -1,0 +1,9 @@
+{% if names | length > 10 %}
+    ...
+{% endif %}
+
+{% if names | length < 10 %}
+    We have some names !
+{% endif %}
+
+{{ names | length }}

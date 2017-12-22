@@ -1,0 +1,6 @@
+{% for name in names | rsort %}
+    {{ name }}
+{% endfor %}
+
+{{ [4, 2, 3, 1] | rsort }}
+

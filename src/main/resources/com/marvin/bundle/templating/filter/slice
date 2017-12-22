@@ -1,0 +1,5 @@
+{{ ['apple', 'peach', 'pear', 'banana'] | slice(1,3) }}
+{# results in: [peach, pear] #}
+
+{{ 'Mitchell' | slice(1,3) }}
+{# results in: 'it' #}

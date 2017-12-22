@@ -1,0 +1,13 @@
+<h1> Introduction 1</h1>
+
+{# here a comment #}
+{% block header %}
+    Header definition in demo_1_1 -
+{% endblock %}
+
+{% block main %}
+{% endblock %}
+
+{% block footer %}
+    FOOTER definition in demo_1_1 -
+{% endblock %}

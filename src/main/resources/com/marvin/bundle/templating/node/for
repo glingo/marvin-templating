@@ -1,0 +1,15 @@
+{% for item in [1, 2, 3, 4] %}
+    {{ item }}
+    {{ loop }}
+{% endfor %}
+
+{% for num in -1 .. 10 %}
+    {{ +num }}
+
+    {% if num equals 5 %}
+        C'est le 5eme
+    {% endif %}
+    {% if num == 6 %}
+        C'est le 6eme
+    {% endif %}
+{% endfor %}

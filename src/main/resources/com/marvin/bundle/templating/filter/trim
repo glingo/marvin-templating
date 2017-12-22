@@ -1,0 +1,2 @@
+{{ "    This text has too much whitespace.    " | trim }}
+{{ "    This text has too much whitespace.    " }}

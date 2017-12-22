@@ -1,0 +1,2 @@
+{{ "Say it In Upper Case" | upper }}
+{{ "Upper" | upper }}

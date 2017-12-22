@@ -1,0 +1,7 @@
+{{ log() }}
+{{ log(1, true) }}
+{{ log("Florian") }}
+{{ log(name="Florian", justified=true) }}
+{{ log([1, 2, 3, 4]) }}
+{{ log(app) }}
+{{ log(app.env) }}

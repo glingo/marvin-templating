@@ -1,0 +1,14 @@
+{% extends 'demo_1_1.view' %}
+
+{% block main %}
+
+    {% block title %}
+    {% endblock %}
+
+    {% block core %}
+    {% endblock %}
+{% endblock %}
+
+{% block footer %}
+    Footer definition in demo_1
+{% endblock %}
